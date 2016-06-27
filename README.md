@@ -2,11 +2,11 @@
 
 A tool to generate json schema forms
 
-[![Travis build status](http://img.shields.io/travis/json-schema-form/json-schema-form-generator.svg?style=flat)](https://travis-ci.org/json-schema-form/json-schema-form-generator)
-[![Code Climate](https://codeclimate.com/github/json-schema-form/json-schema-form-generator/badges/gpa.svg)](https://codeclimate.com/github/json-schema-form/json-schema-form-generator)
-[![Test Coverage](https://codeclimate.com/github/json-schema-form/json-schema-form-generator/badges/coverage.svg)](https://codeclimate.com/github/json-schema-form/json-schema-form-generator)
-[![Dependency Status](https://david-dm.org/json-schema-form/json-schema-form-generator.svg)](https://david-dm.org/json-schema-form/json-schema-form-generator)
-[![devDependency Status](https://david-dm.org/json-schema-form/json-schema-form-generator/dev-status.svg)](https://david-dm.org/json-schema-form/json-schema-form-generator#info=devDependencies)
+[![Travis build status](http://img.shields.io/travis/json-schema-form/json-schema-form-genetator-es6.svg?style=flat)](https://travis-ci.org/json-schema-form/json-schema-form-genetator-es6)
+[![Code Climate](https://codeclimate.com/github/json-schema-form/json-schema-form-genetator-es6/badges/gpa.svg)](https://codeclimate.com/github/json-schema-form/json-schema-form-genetator-es6)
+[![Test Coverage](https://codeclimate.com/github/json-schema-form/json-schema-form-genetator-es6/badges/coverage.svg)](https://codeclimate.com/github/json-schema-form/json-schema-form-genetator-es6)
+[![Dependency Status](https://david-dm.org/json-schema-form/json-schema-form-genetator-es6.svg)](https://david-dm.org/json-schema-form/json-schema-form-genetator-es6)
+[![devDependency Status](https://david-dm.org/json-schema-form/json-schema-form-genetator-es6/dev-status.svg)](https://david-dm.org/json-schema-form/json-schema-form-genetator-es6#info=devDependencies)
 
 ## Objective
 
