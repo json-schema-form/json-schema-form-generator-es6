@@ -16,20 +16,43 @@ The goal for this libary is to provide a generator that will allow users of json
 
     npm install json-schema-generator
   
-## Components
+## Usage
 
-### Definitions Generator
-
-
+The generator accepts standard json schema form schema and form as input and will output json schema form schema, form and model that use jsf to edit the form definition. 
 
 
-### Definitions Importer
+    var jsonSchemaFormGenerator = require('json-schema-generator').default;
+    generator = jsonSchemaFormGenerator.getFormBuilder(schema, form);
+    
+In html:
+   
+    <div sf-schema="generator.schema" sf-form="generator.form" sf-model="generator.model"></div>
+    
+To get the form definitions, simply call ```getDefinitions``` with the model as parameter
+
+    var output = jsonSchemaFormGenerator.getDefinitions(generator.model);
+    
+    
+In html, you can then show the form like any standard json schema form:
+   
+    <div sf-schema="output.schema" sf-form="ouput.form"></div>  
 
 
-## Roadmap
+NB: The examples use the angular-builder, however the generator is framework agnostic and uses plain javascript. Adapters for different frameworks are required for drop-in usage. 
 
 
-## Contributions
+## Todo
+
+- Support the full json schema form definition
+    - Enum and Titlemaps
+    - Fields without keys
+    - All Json Schema Draft 4 keywords
+    - Fields with items
+- Unit tests
+- Framework adapters
+    - Angular Directive
+
+
 
 
 
